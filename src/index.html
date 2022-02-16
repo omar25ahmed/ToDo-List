@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpackdede Exercise</title>
+    <title>To Do List</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f5822c69a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Hello w!</h1>
+<div class="container">
+    <div class="header">
+        <p>Today's To Do</p>
+        <button type="button" class="fas fa-sync-alt"></button>
+    </div>
+    <hr>
+    <form class="todo-add">
+        <input type="text" class="form-field" placeholder="Add to your list..."/>
+        <button type="submit" class="fas fa-level-down-alt"></button>
+      </form>
+      <ul class="todo-list" id="todo-list">
+    </ul>
+    <div class="footer">
+        <button type="button" class="todo-clear">Clear all completed</button>
+    </div>
+</div>
 </body>
 
 </html>
