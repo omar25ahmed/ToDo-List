@@ -1,14 +1,25 @@
-import _ from 'lodash';
 import './style.css';
+import showTask from './add-li.js';
 
-function component() {
-  const element = document.createElement('div');
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'ahmed'], ' ');
-  element.classList.add('hello');
+const tasks = [
+  {
+    description: 'task 1',
+    completed: false,
+    index: 0,
+  },
+  {
+    description: 'task 2',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'task 3',
+    completed: false,
+    index: 2,
+  },
+];
 
-  return element;
-}
+const ul = document.getElementById('todo-list');
 
-document.body.appendChild(component());
+showTask(tasks, ul);
