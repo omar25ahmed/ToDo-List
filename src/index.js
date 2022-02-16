@@ -1,7 +1,6 @@
 import './style.css';
 import showTask from './add-li.js';
 
-
 const tasks = [
   {
     description: 'task 1',

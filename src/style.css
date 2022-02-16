@@ -1,5 +1,5 @@
 body {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
-
 }
 
 .todo-add {
@@ -34,16 +33,16 @@ body {
 }
 
 .form-field {
-    font-family: inherit;
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #9b9b9b;
-    outline: 0;
-    font-size: 1.3rem;
-    color: black;
-    padding: 7px 0;
-    background: transparent;
-    transition: border-color 0.2s;
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
 }
 
 ul {
@@ -66,9 +65,9 @@ ul {
 }
 
 .footer {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   height: 50px;
-  border-top: 1px solid ;
+  border-top: 1px solid;
   display: flex;
   justify-content: center;
   opacity: 0.5;
