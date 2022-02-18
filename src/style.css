@@ -1,3 +1,104 @@
-.hello {
-  color: blue;
+body {
+  background-color: #f6f6f6;
+}
+
+.container {
+  border: 1px solid;
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-add {
+  display: flex;
+  padding: 10px;
+}
+
+.todo-add button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.btns {
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.close-button {
+  transform: rotate(45deg);
+  cursor: pointer;
+  font-size: 30px;
+  color: red;
+}
+
+.edit {
+  border-color: transparent;
+  height: 40px;
+}
+
+.edit:focus-visible {
+  outline: green auto 1px;
+  font-size: 15px;
+}
+
+.scroll {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.footer {
+  background-color: #f6f6f6;
+  height: 50px;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.footer button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
 }
