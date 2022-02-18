@@ -1,4 +1,5 @@
 import './style.css';
+import Task from './class.js';
 
 const form = document.querySelector('.todo-add');
 const input = document.querySelector('.form-field');
@@ -14,22 +15,6 @@ function getTasks() {
     tasks = Array.from(JSON.parse(localStorage.getItem('tasks')));
   }
   return tasks;
-}
-
-class Task {
-  constructor(description, index) {
-    this.description = description;
-    this.completed = false;
-    this.index = index;
-  }
-
-  set updatedIndex(newIndex) {
-    this.index = newIndex;
-  }
-
-  set updatedDesc(newDesc) {
-    this.description = newDesc;
-  }
 }
 
 function prepareEdit(task, btn) {
@@ -67,7 +52,7 @@ function loadTasks() {
     const btn = document.getElementById(`edit-${task.index}`);
     prepareEdit(task, btn);
     localStorage.setItem('tasks', JSON.stringify(tasks));
-    getTasks();
+    // getTasks();
   });
 }
 
@@ -90,7 +75,8 @@ function addTask() {
     const btn = document.getElementById(`edit-${task.index}`);
     prepareEdit(task, btn);
     localStorage.setItem('tasks', JSON.stringify(tasks));
-    getTasks();
+    // getTasks();
+    console.log(tasks);
   });
 }
 
@@ -107,7 +93,8 @@ function removeTask(e) {
     tasks.splice(deletedIndex - 1, 1);
   }
   localStorage.setItem('tasks', JSON.stringify(tasks));
-  getTasks();
+  // getTasks();
+  console.log(tasks);
 }
 
 form.addEventListener('submit', (e) => {
@@ -129,6 +116,9 @@ ul.addEventListener('keypress', (e) => {
     const parent = document.querySelector(`[data-index="${e.target.id}"]`);
     parent.insertBefore(p, e.target);
     parent.removeChild(e.target);
+    task.description = task.updatedDesc;
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    getTasks();
   }
 });
 
