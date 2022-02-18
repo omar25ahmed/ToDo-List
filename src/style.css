@@ -57,6 +57,29 @@ ul {
   gap: 10px;
 }
 
+.btns {
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.close-button {
+  transform: rotate(45deg);
+  cursor: pointer;
+  font-size: 30px;
+  color: red;
+}
+
+.edit {
+  border-color: transparent;
+  height: 40px;
+}
+
+.edit:focus-visible {
+  outline: green auto 1px;
+  font-size: 15px;
+}
+
 .scroll {
   background-color: transparent;
   border: none;
