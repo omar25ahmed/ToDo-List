@@ -1,35 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# To Do List
 
-# Webpack Templte
+Application that record the tasks to remind you and got many features that you might need.
 
-Additional description about the project and its features.
+## This is an image for it
+
+## Live Demo
+[Live Demo Here](https://omar25ahmed.github.io/Omar-Ragheb-First-Capstone/)
+
+
+
+
+## Built With
+
+- HTML
+- CSS
+- Markdown
+- JavaScript
+
+## Prerequisites 
+
+- text-editor
+- git 
+- github
 
 ## Getting Started
 
-after cloneing
+**To Create A Portfolio from this Repository feel free to contact me.**
 
-```
-npm install
-npm start
-```
+**To get a local copy up and running follow these simple steps.**
+- you can clone this repo by typing `git clone git@github.com:omar25ahmed/Omar-Ragheb-ToDo-List`.
+- type `cd ToDo List` to access the project on terminal.
 
 ## Authors
 
-👤 **Author1**
+👤 **Omar Ragheb**
 
-- GitHub: [@ahmedta](https://github.com/ahmedta)
-- Twitter: [@\_ahmedta](https://twitter.com/_ahmedta)
+- - GitHub: [@omar25ahmed](https://github.com/omar25ahmed)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/omar25ahmed/Portfolio-setup-and-mobile-version-skeleton/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Cindy Shin's design
+- SciComm [Link](https://www.scicommcon.org/)
+- Aspen Global Congress on Scientific Thinking & Action [Link](https://www.aspeninstitute.org/programs/science-society/global-science-congress/)
+- Microverse Team
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+- GitHub: [@omar25ahmed](https://github.com/omar25ahmed)
