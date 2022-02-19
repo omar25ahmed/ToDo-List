@@ -80,6 +80,11 @@ ul {
   font-size: 15px;
 }
 
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 .scroll {
   background-color: transparent;
   border: none;
